@@ -1,3 +1,22 @@
+/* font Seeting */
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
 /* Banner Design  */
 
 .header-banner {
@@ -17,7 +36,7 @@
     ), url("../Images/Banner.png");
 
     background-repeat: no-repeat;
-    margin: 50px 140px 30px 140px;
+    margin: 50px 140px 100px 120px;
   border-radius: 16px;
   background-position: center;
 
@@ -32,9 +51,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
-
-  
-
 }
  
 .banner-text {
@@ -42,28 +58,141 @@
   justify-content: center; 
   flex-direction: column;
   color: #FFFFFF; 
-  align-items: center;
+  align-items:center;
   gap: 0px;
 }
 
 .banner-title {
+  margin-top: 0px;
   font-size: 32px;
   font-weight: 400;
   color: #FFFFFF;
   margin: 100px 186px 0px 186px ;
-  
 }
 
 .banner-subtitle {
+  margin-top: 20px;
   font-size: 72px;
   font-weight: 900;
   color: #FFFFFF;
   width: 60%;
   text-align: center;
-  /* line-height: 95px; */
+  line-height: 95px;
 }
 
-.banner-image {
-  
+/* HOLIDAY DEALS */
+
+.holiday-deals  {
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+   width: 800px;
+    height: 800px;
+    margin: 0px 400px 100px 400px ;
+}
+
+.holiday-deals-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer {
+    /* font-family: 'inter' ; */
+    margin-top: 0px;
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000; 
+}
+
+.branding {
+  margin-top: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ff0000; 
+}
+
+.check-all{
+  margin-top: 0px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211; 
+    margin-bottom: 50px;
+}
+
+.holiday-deals img {
+  height: 445px;
+
+}
+
+/* Celebration new year */
+
+.celebration{
+  background: linear-gradient(
+        270deg,
+    rgba(7, 2, 17, 0) -0%,
+    rgba(7, 2, 17, 1)100% 
+    ), url("../Images/Vectorrr.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 140px 100px 120px;
+    height: 600px;
+    width: 1320px;
+    border-radius: 16px;
+   
+    /* position: center; */
+
+    
+
+
+
+    color: #FFFFFF;
+}
+
+.celebration-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* position: center; */
+  gap: 40px ;
+    height: 100%;
+    width: 100%;
+}
+
+.celebration-text {
+    width: 52%;
+ 
+}
+/* .celebration-content img {
+  margin: 68px 40px 68px 140ox ;
+} */
+
+.celebration-title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  margin-bottom: 0px;
+  letter-spacing: 11px;
+
+}
+
+.celebration-content{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.93;
+
+}
+
+.celebration-text button{
+  background-color: #070211 ;
+  color: white ;
+  border-radius: 8px;
+  font-size: 18px ;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px blueviolet;
+  border: none ;
 
 }
