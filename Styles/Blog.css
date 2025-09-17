@@ -196,3 +196,67 @@
   border: none ;
 
 }
+
+/* Indentification for package  */
+
+.package {
+  background: linear-gradient(
+        180deg,
+    rgba(246, 222, 222, 1) -0%,
+    rgba(255, 0, 0, 0)100% 
+    );
+    background-color: #FF0000
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 140px 100px 120px;
+    height: 442px;
+    width: 1320px;
+    border-radius: 16px;
+
+}
+
+.package-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+}
+
+.package-details{
+  font-size: 32px;
+  font-weight: 600px;
+  line-height: 56px;
+  opacity: 0.9;
+  
+
+}
+
+.btn-primary{
+  background-color: #ff0000 ;
+  color: white ;
+  border-radius: 5px;
+  font-size: 20px ;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px blueviolet;
+  border: none ;
+  padding: 8px 16px;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+
+/* Shared colur */
+
+.1{
+  color: #070211;
+}
+.2{
+  color: #FF0000;
+}
+.3{
+  color: #FFFFFF;
+}
